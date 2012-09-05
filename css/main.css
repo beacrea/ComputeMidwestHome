@@ -436,11 +436,14 @@ td {
 
 
 /* ==|== primary styles =====================================================
-   Author:
+   Author: Coty Beasley (coty@beasleycreative.com) - http://bea.cr
    ========================================================================== */
 
+/* GLOBAL STYLES */
 
-
+/* BANNER */
+header {width:100%; display: block; overflow: hidden; text-align: center; background:#f4f4f4;}
+#hero {display:block; width:100%; max-width: 100%;}
 
 
 
