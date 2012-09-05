@@ -439,9 +439,23 @@ td {
    Author: Coty Beasley (coty@beasleycreative.com) - http://bea.cr
    ========================================================================== */
 
+/* ************* */
 /* GLOBAL STYLES */
+/* ************* */
 
-/* BANNER */
+/* ** Brand Colors ** */
+.bluePrime {color:#00adee;}
+
+/* ** Typography ** */
+/* ** Containers and Wrappers ** */
+
+
+
+/* ************** */
+/* SECTION STYLES */
+/* ************** */
+
+/* Banner */
 header {width:100%; display: block; overflow: hidden; text-align: center; background:#f4f4f4;}
 #hero {display:block; width:100%; max-width: 100%;}
 
