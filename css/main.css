@@ -489,6 +489,9 @@ td {
 /* GLOBAL STYLES */
 /* ************* */
 
+/* ** Test Styles ** */
+.sheetBound {background:#666;}
+
 /* ** Brand Colors ** */
 .bluePrime {color:#00adee;}
 
@@ -500,12 +503,20 @@ h3 {}
 p {font-family: 'Droid Sans', sans-serif;}
 
 /* ** Containers and Wrappers ** */
+.sheetBound {display: block;  margin:0 auto; width:80%; max-width:2000px;}
 
 
 
 /* ************** */
 /* SECTION STYLES */
 /* ************** */
+
+/* Navigation */
+#navFloat {}
+#navTitle {}
+
+/* About */
+#about {}
 
 /* Banner */
 header {width:100%; display: block; overflow: hidden; text-align: center; background:#f4f4f4;}
@@ -531,6 +542,16 @@ header {width:100%; display: block; overflow: hidden; text-align: center; backgr
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+
+    /* ************* */
+    /* GLOBAL STYLES */
+    /* ************* */
+
+    /* ** Containers and Wrappers ** */
+    .sheetBound {width:90%;}
+
+
+
 }
 
 
