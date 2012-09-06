@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*
  * HTML5 Boilerplate
  *
@@ -824,6 +825,8 @@ header .bg{
     }
 }
 =======
+=======
+>>>>>>> parent of 20ff675... conflict resolved?
 /*
  * HTML5 Boilerplate
  *
@@ -1357,7 +1360,11 @@ p {font-family: 'Droid Sans', sans-serif;}
   padding: 20px;
 }
 #about .bg{
+<<<<<<< HEAD
   width: 100%;
+=======
+  width: auto;
+>>>>>>> parent of 20ff675... conflict resolved?
   height: auto;
   top: 0;
   left: 0;
@@ -1372,6 +1379,7 @@ p {font-family: 'Droid Sans', sans-serif;}
   margin-top: .4em;
   color: #fafafa;
 }
+<<<<<<< HEAD
 #about .kauffman0{
   width: 50%;
   float: right;
@@ -1387,6 +1395,15 @@ p {font-family: 'Droid Sans', sans-serif;}
   margin-top: -136px;
   position: relative;
   z-index: 1;
+=======
+#about .info{
+  width: 50%;
+  float: left;
+}
+#about .kauffman{
+  float: right;
+  width: 50%;
+>>>>>>> parent of 20ff675... conflict resolved?
 }
 
 /* Speakers */
@@ -1656,4 +1673,7 @@ header .bg{
       display: none;
     }
 }
+<<<<<<< HEAD
 >>>>>>> parent of 64cb6f5... bg height and fitText
+=======
+>>>>>>> parent of 20ff675... conflict resolved?
