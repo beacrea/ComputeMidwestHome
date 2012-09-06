@@ -507,8 +507,12 @@ h3 {}
 p {font-family: 'Droid Sans', sans-serif;}
 
 /* ** Containers and Wrappers ** */
-.sheetBound   {display: block;  margin:0 auto; width:80%; max-width:2000px;}
-.contentBound {max-width:960px; position:relative; padding: 20px;}
+.sheetBound{
+  display: block;
+  margin: auto;
+  width: 80%;
+  position: relative;
+}
 
 /* ************** */
 /* SECTION STYLES */
@@ -518,17 +522,11 @@ p {font-family: 'Droid Sans', sans-serif;}
 #navFloat {}
 #navTitle {}
 
-.bits-top{
-  position: absolute;
-  background: url(../img/bitsTop.png);
-  height: 232px;
-  width: 100%;
-}
-
 /* About */
 #about{
   position: relative;
   overflow: hidden;
+  padding: 20px;
 }
 #about .bg{
   width: 100%;
@@ -546,12 +544,29 @@ p {font-family: 'Droid Sans', sans-serif;}
   margin-top: .4em;
   color: #fafafa;
 }
+#about .kauffman0{
+  width: 50%;
+  float: right;
+  margin-left: 10px;
+  position: relative;
+  z-index: 0;
+}
+#about .kauffman1{
+  width: 30%;
+  float: right;
+  margin-left: 20px;
+  margin-right: 32%;
+  margin-top: -136px;
+  position: relative;
+  z-index: 1;
+}
 
 /* Speakers */
 #speakers{
   background: #00ADEF;
   text-align: center;
   color: #fafafa;
+  padding: 20px;
 }
 
 /* Shadow */
