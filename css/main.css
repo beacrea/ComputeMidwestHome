@@ -40,21 +40,21 @@
 @font-face {font-family: 'Code-Pro-Light-Demo';src: url('webfonts/23F536_1_0.eot');src: url('webfonts/23F536_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/23F536_1_0.woff') format('woff'),url('webfonts/23F536_1_0.ttf') format('truetype');}
 
 .Code-Pro { 
-    font-family: Code-Pro-Demo;
-    font-weight: normal;
-    font-style: normal;
+  font-family: Code-Pro-Demo;
+  font-weight: normal;
+  font-style: normal;
 }
 .Code-Pro-Light { 
-    font-family: Code-Pro-Light-Demo;
-    font-weight: normal;
-    font-style: normal;
+  font-family: Code-Pro-Light-Demo;
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* Droid Sans */
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 
 .Droid-Sans {
-    font-family: 'Droid Sans', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 /* =============================================================================
@@ -176,7 +176,7 @@ a:active {
 abbr[title] {
     border-bottom: 1px dotted;
 }
-
+  
 b,
 strong {
     font-weight: bold;
@@ -490,7 +490,7 @@ td {
 /* ************* */
 
 /* ** Test Styles ** */
-.sheetBound {background:#666;}
+/*.sheetBound {background:#666;}*/
 
 /* ** Brand Colors ** */
 .bluePrime {color:#00adee;}
@@ -503,9 +503,8 @@ h3 {}
 p {font-family: 'Droid Sans', sans-serif;}
 
 /* ** Containers and Wrappers ** */
-.sheetBound {display: block;  margin:0 auto; width:80%; max-width:2000px;}
-
-
+.sheetBound   {display: block;  margin:0 auto; width:80%; max-width:2000px;}
+.contentBound {max-width:960px; position:relative;}
 
 /* ************** */
 /* SECTION STYLES */
@@ -515,8 +514,26 @@ p {font-family: 'Droid Sans', sans-serif;}
 #navFloat {}
 #navTitle {}
 
+.bits-top{
+  position: absolute;
+}
+
 /* About */
-#about {}
+#about{
+  position: relative;
+  overflow: hidden;
+}
+#about .bg{
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+#about h1,
+#about p{
+ color: #fafafa;
+}
 
 /* Banner */
 header {width:100%; display: block; overflow: hidden; text-align: center; background:#f4f4f4;}
