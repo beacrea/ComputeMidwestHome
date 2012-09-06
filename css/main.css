@@ -515,8 +515,10 @@ p {font-family: 'Droid Sans', sans-serif;}
 /* ************** */
 
 /* Navigation */
-#navFloat {}
-#navTitle {}
+#navFloat {width:100%; display:block; background:#e2e3e4; padding:0.1em; height:2.5em; text-align:center;}
+#kcitp_reppin {position: fixed; right:0; top:0; padding:0.2em 1em 0 0; height:2em;}
+#kcitp_reppin img {height:100%;}
+
 
 .bits-top{
   position: absolute;
@@ -612,7 +614,7 @@ header .bg{
   left: 0;
 }
 .spacer{
-  width: 1%;
+  width: 2%;
   height: auto;
 }
 .clear{
