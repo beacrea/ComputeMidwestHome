@@ -617,13 +617,14 @@ header .bg{
   margin-top: .4em;
   color: #fafafa;
 }
-#about .info{
-  width: 50%;
+#about .eventInfo{
+  width: 57.5%;
   float: left;
 }
 #about .kauffman{
   float: right;
-  width: 50%;
+  width: 40%;
+  padding-left: 2.5%;
 }
 
 /* Speakers */
