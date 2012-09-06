@@ -570,10 +570,10 @@ header .bg{
   display: block;
   width: 26%;
   margin: 1% 1% 1% 2%;
-  opacity: .8;
+  opacity: .2;
 }
 .banner .registration:hover{
-  opacity: 1;
+  /* opacity: 1; */
 }
 .registration img{
   width: 100%;
@@ -621,6 +621,12 @@ header .bg{
   width: 57.5%;
   float: left;
 }
+#about a img {
+    opacity: 0.8;
+}
+#about a img:hover {
+    opacity: 1;
+}
 #about .kauffman{
   float: right;
   width: 40%;
@@ -650,6 +656,18 @@ header .bg{
    Modify as content requires.
    ========================================================================== */
 
+@media only screen and (max-width: 800px) {
+    /* All Mobile Sizes (devices and browser) */
+    /* 800px/16px = 50em */
+
+    /* ************** */
+    /* SECTION STYLES */
+    /* ************** */
+    
+    /* ** About ** */
+    .kauffman, .eventInfo {float:none !important; display: block; width: 100% !important;  }
+    .kauffman {margin-top:2em;}
+}
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
 
