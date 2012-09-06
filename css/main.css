@@ -496,7 +496,7 @@ td {
 .bluePrime {color:#00adee;}
 
 /* ** Typography ** */
-h1, h2, h3, h4 {font-family: Code-Pro-Demo;}
+h1, h2, h3, h4 {font-family: Code-Pro-Demo; margin:0;}
 h1 {}
 h2 {}
 h3 {}
@@ -504,7 +504,7 @@ p {font-family: 'Droid Sans', sans-serif;}
 
 /* ** Containers and Wrappers ** */
 .sheetBound   {display: block;  margin:0 auto; width:80%; max-width:2000px;}
-.contentBound {max-width:960px; position:relative;}
+.contentBound {max-width:960px; position:relative; padding: 20px;}
 
 /* ************** */
 /* SECTION STYLES */
@@ -532,6 +532,7 @@ p {font-family: 'Droid Sans', sans-serif;}
   top: 0;
   left: 0;
   position: absolute;
+  min-width: 960px;
 }
 #about h1{
   margin-bottom: 0;
@@ -543,11 +544,47 @@ p {font-family: 'Droid Sans', sans-serif;}
   color: #fafafa;
 }
 
+/* Speakers */
+#speakers{
+  background: #00ADEF;
+  text-align: center;
+  color: #fafafa;
+}
+
+/* Shadow */
+.shadow{
+  background: url(../img/drop-shadow.png) repeat-x;
+  height: 8px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  margin-bottom: -8px;
+}
+
 /* Banner */
-header {width:100%; display: block; overflow: hidden; text-align: center; background:#f4f4f4;}
-#hero {display:block; width:100%; max-width: 100%;}
-
-
+header {
+  width:100%;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  background:#f4f4f4;
+}
+header .banner{
+  height: 70px;
+  width: 80%;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  background: #00ADEF;
+}
+header .bg{
+  display:block;
+  width:100%;
+  max-width: 100%;
+}
+header .banner-frame{
+  max-width: 700px;
+}
 
 
 
@@ -738,5 +775,7 @@ header {width:100%; display: block; overflow: hidden; text-align: center; backgr
     /* CUSTOM PRINT STYLES */
 
     /* ** Elements to Hide ** */
-    #hero {display: none;} /* main image banner */
+    header .bg{ /* main image banner */
+      display: none;
+    }
 }
