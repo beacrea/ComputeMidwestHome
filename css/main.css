@@ -573,11 +573,6 @@ header {
   background:#f4f4f4;
 }
 header .banner{
-  margin-bottom: -20px;
-  width: 88%;
-  position: absolute;
-  left: 0;
-  top: 60px;
   background: #00ADEF;
 }
 header .bg{
@@ -601,7 +596,21 @@ header .bg{
   width: 26%;
   margin: 1%;
 }
-
+.padding{
+  width: 88%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.spacer{
+  width: 1%;
+  height: auto;
+}
+.clear{
+  clear: both;
+  height: 0;
+  width: 0;
+}
 
 
 
