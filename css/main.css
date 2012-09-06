@@ -584,7 +584,7 @@ header .bg{
   float: right;
 }
 .banner .logo{
-  width: 22%;
+  width: 21%;
   margin: -4% 1%;
 }
 .banner .title{
@@ -594,7 +594,7 @@ header .bg{
 }
 .banner .registration{
   width: 26%;
-  margin: 1%;
+  margin: 1% 1% 1% 2%;
 }
 .padding{
   width: 88%;
