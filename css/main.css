@@ -482,7 +482,8 @@ td {
 
 
 /* ==|== primary styles =====================================================
-   Author: Coty Beasley (coty@beasleycreative.com) - http://bea.cr
+   Author: Coty Beasley (coty@beasleycreative.com)
+           Chad Elliott (chad@beasleycreative.com)
    ========================================================================== */
 
 /* ************* */
@@ -501,9 +502,6 @@ h1, h2, h3, h4{
   margin: 0;
   line-height: 1em;
 }
-h1 {}
-h2 {}
-h3 {}
 p {font-family: 'Droid Sans', sans-serif;}
 
 /* ** Containers and Wrappers ** */
@@ -519,7 +517,18 @@ p {font-family: 'Droid Sans', sans-serif;}
 /* ************** */
 
 /* Navigation */
-#navFloat {width:100%; display:block; background:#e2e3e4; padding:0.1em; height:2.5em; text-align:center;}
+#navFloat {
+  position:fixed;
+  top:0;
+  width:100%;
+  display:block;
+  background:#e2e3e4;
+  padding:0.1em;
+  height:2.5em;
+  text-align:center;
+  border-bottom:1px solid #666;
+  z-index: 999;
+}
 #kcitp_reppin {position: fixed; right:0; top:0; padding:0.2em 1em 0 0; height:2em;}
 #kcitp_reppin img {height:100%;}
 
