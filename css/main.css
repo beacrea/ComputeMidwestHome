@@ -516,6 +516,9 @@ p {font-family: 'Droid Sans', sans-serif;}
 
 .bits-top{
   position: absolute;
+  background: url(../img/bitsTop.png);
+  height: 232px;
+  width: 100%;
 }
 
 /* About */
@@ -530,9 +533,14 @@ p {font-family: 'Droid Sans', sans-serif;}
   left: 0;
   position: absolute;
 }
-#about h1,
+#about h1{
+  margin-bottom: 0;
+  color: #fafafa;
+  font-size: 26px;
+}
 #about p{
- color: #fafafa;
+  margin-top: 0;
+  color: #fafafa;
 }
 
 /* Banner */
