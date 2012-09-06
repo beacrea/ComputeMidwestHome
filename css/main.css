@@ -516,56 +516,7 @@ p {font-family: 'Droid Sans', sans-serif;}
   position: relative;
 }
 
-/* ************** */
-/* SECTION STYLES */
-/* ************** */
-
-/* Navigation */
-#navFloat {width:100%; display:block; background:#e2e3e4; padding:0.1em; height:2.5em; text-align:center;}
-#kcitp_reppin {position: fixed; right:0; top:0; padding:0.2em 1em 0 0; height:2em;}
-#kcitp_reppin img {height:100%;}
-
-
-/* About */
-#about{
-  position: relative;
-  overflow: hidden;
-  padding: 20px;
-}
-#about .bg{
-  width: auto;
-  height: auto;
-  top: 0;
-  left: 0;
-  position: absolute;
-  min-width: 960px;
-}
-#about h1{
-  color: #fafafa;
-  font-size: 26px;
-}
-#about p{
-  margin-top: .4em;
-  color: #fafafa;
-}
-#about .info{
-  width: 50%;
-  float: left;
-}
-#about .kauffman{
-  float: right;
-  width: 50%;
-}
-
-/* Speakers */
-#speakers{
-  background: #00ADEF;
-  text-align: center;
-  color: #fafafa;
-  padding: 20px;
-}
-
-/* Shadow */
+/* ** Reusable Effects ** *//* Shadow */
 .shadow{
   background: url(../img/drop-shadow.png) repeat-x;
   height: 8px;
@@ -574,6 +525,18 @@ p {font-family: 'Droid Sans', sans-serif;}
   z-index: 1;
   margin-bottom: -8px;
 }
+
+
+
+/* ************** */
+/* SECTION STYLES */
+/* ************** */
+
+/* Navigation */
+#navFloat {width:100%; display:block; background:#e2e3e4; padding:0.1em; height:2.5em; text-align:center; z-index:900;}
+#navFloat span {display:block; padding-top:0.5em;}
+#kcitp_reppin {position: fixed; right:0; top:0; padding:0.2em 1em 0 0; height:2em; z-index: 999;}
+#kcitp_reppin img {height:100%;}
 
 /* Banner */
 header {
@@ -630,6 +593,45 @@ header .bg{
   clear: both;
   height: 0;
   width: 0;
+}
+
+/* About */
+#about{
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+#about .bg{
+  width: auto;
+  height: auto;
+  top: 0;
+  left: 0;
+  position: absolute;
+  min-width: 960px;
+}
+#about h1{
+  color: #fafafa;
+  font-size: 26px;
+}
+#about p{
+  margin-top: .4em;
+  color: #fafafa;
+}
+#about .info{
+  width: 50%;
+  float: left;
+}
+#about .kauffman{
+  float: right;
+  width: 50%;
+}
+
+/* Speakers */
+#speakers{
+  background: #00ADEF;
+  text-align: center;
+  color: #fafafa;
+  padding: 20px;
 }
 
 
