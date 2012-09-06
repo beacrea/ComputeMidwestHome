@@ -529,7 +529,7 @@ p {font-family: 'Droid Sans', sans-serif;}
   border-bottom:1px solid #666;
   z-index: 999;
 }
-#kcitp_reppin {position: fixed; right:0; top:0; padding:0.2em 1em 0 0; height:2em;}
+#kcitp_reppin {position: fixed; right:0; top:0; padding:0.2em 1em 0 0; height:2em; z-index: 1000;}
 #kcitp_reppin img {height:100%;}
 
 
