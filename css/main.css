@@ -580,21 +580,30 @@ header .bg{
   width:100%;
   max-width: 100%;
 }
-.banner img{
-  float: right;
-}
 .banner .logo{
+  float: right;
   width: 21%;
   margin: -4% 1%;
 }
 .banner .title{
+  float: right;
   width: 48%;
   margin: 1% 0;
   vertical-align: top;
 }
 .banner .registration{
+  float: right;
+  display: block;
   width: 26%;
   margin: 1% 1% 1% 2%;
+  opacity: .8;
+}
+.banner .registration:hover{
+  opacity: 1;
+}
+.registration img{
+  width: 100%;
+  height: auto;
 }
 .padding{
   width: 88%;
