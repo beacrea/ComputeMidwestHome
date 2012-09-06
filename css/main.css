@@ -496,7 +496,11 @@ td {
 .bluePrime {color:#00adee;}
 
 /* ** Typography ** */
-h1, h2, h3, h4 {font-family: Code-Pro-Demo; margin:0;}
+h1, h2, h3, h4{
+  font-family: Code-Pro-Demo;
+  margin: 0;
+  line-height: 1em;
+}
 h1 {}
 h2 {}
 h3 {}
@@ -535,12 +539,11 @@ p {font-family: 'Droid Sans', sans-serif;}
   min-width: 960px;
 }
 #about h1{
-  margin-bottom: 0;
   color: #fafafa;
   font-size: 26px;
 }
 #about p{
-  margin-top: 0;
+  margin-top: .4em;
   color: #fafafa;
 }
 
@@ -570,11 +573,11 @@ header {
   background:#f4f4f4;
 }
 header .banner{
-  height: 70px;
-  width: 80%;
+  margin-bottom: -20px;
+  width: 88%;
   position: absolute;
   left: 0;
-  top: 60px;
+  top: 30px;
   background: #00ADEF;
 }
 header .bg{
@@ -582,8 +585,21 @@ header .bg{
   width:100%;
   max-width: 100%;
 }
-header .banner-frame{
-  max-width: 700px;
+.banner img{
+  float: right;
+}
+.banner .logo{
+  width: 22%;
+  margin: -4% 1%;
+}
+.banner .title{
+  width: 48%;
+  margin: 1% 0;
+  vertical-align: top;
+}
+.banner .registration{
+  width: 26%;
+  margin: 1%;
 }
 
 
