@@ -569,10 +569,10 @@ header .bg{
   display: block;
   width: 26%;
   margin: 1% 1% 1% 2%;
-  opacity: .2;
+  opacity: .8;
 }
 .banner .registration:hover{
-  /* opacity: 1; */
+  opacity: 1;
 }
 .registration img{
   width: 100%;
